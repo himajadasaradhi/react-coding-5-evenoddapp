@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.background-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 80vh;
+  background-size: cover;
+  border-radius: 10px;
+}
+.last-para {
+  color: #334155;
+}
+.button {
+  color: #1e293b;
+  height: 25px;
+  border-radius: 5px;
+  border-width: 0px;
+  cursor: pointer;
+}
+.heading {
+  color: #0f172a;
+}
+.first-para {
+  color: #334155;
+}
